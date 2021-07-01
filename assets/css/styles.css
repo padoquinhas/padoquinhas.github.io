@@ -1,17 +1,19 @@
-#mainNav .navbar-brand {
+#mainNav .navbar-nav li a {
   color: #000000;
-  font-family: "Catamaran","Helvetica","Arial","sans-serif";
-  font-weight: 200;
-  letter-spacing: 1px;
 }
 
-#mainNav {
-  border-color: rgba(34,34,34,.05);
-  background-color: transparent;
-  transition: all .35s;
-  font-family: "Catamaran","Helvetica","Arial","sans-serif";
-  font-weight: 200;
-  letter-spacing: 1px;
+#justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#listHelp li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#help {
+  background-color: #f2bdc5;
 }
 
 @media (min-width: 992px) {
@@ -37,8 +39,8 @@ header.masthead {
 }
 
 @media (min-width: 992px) {
-  #mainNav .navbar-nav > li > a:hover, #mainNav .navbar-nav > li > a:focus:hover {
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
     color: #ffffff;
   }
 }
-
