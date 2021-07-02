@@ -28,6 +28,10 @@
   background-color: #f2bdc5;
 }
 
+.btn-light {
+  color: #000000;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
