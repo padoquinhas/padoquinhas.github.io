@@ -3,6 +3,14 @@
   src: url("../font/CupCakes.otf") format("opentype");
 }
 
+.btn-light {
+  color: #000000;
+}
+
+button {
+  color: #000000;
+}
+
 #mainNav .navbar-nav li a {
   color: #000000;
 }
@@ -26,10 +34,6 @@
 
 #help {
   background-color: #f2bdc5;
-}
-
-.btn-light {
-  color: #000000;
 }
 
 @media (min-width: 992px) {
